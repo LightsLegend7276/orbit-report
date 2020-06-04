@@ -3,10 +3,6 @@
     color: #dd5;
 }
 
-.warning {
-    background-color: orange;
-}
-
 table {
   color: #111;
   border-radius: 5px;
@@ -29,4 +25,8 @@ th, td {
 
 tr:nth-child(even) {
     background: royalblue;
+}
+
+.warning {
+    background-color: orange !important;
 }

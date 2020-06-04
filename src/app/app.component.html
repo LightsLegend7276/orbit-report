@@ -3,3 +3,4 @@
     <input #searchTerm (keyup.enter)="search(searchTerm.value); searchTerm.value=''" type="text" placeholder="Search">
     <button (click)="search(searchTerm.value); searchTerm.value=''">Search</button>
 </div>
+<app-orbit-counts [satellites]="displayList"></app-orbit-counts>
